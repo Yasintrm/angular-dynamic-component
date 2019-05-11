@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{A1CT:function(n,t,o){"use strict";o.d(t,"a",function(){return r});var e=o("CcnG"),r=function(){function n(){}return n.prototype.getRandomNumber=function(){return Math.random()},n.ngInjectableDef=e.J({factory:function(){return new n},token:n,providedIn:"root"}),n}()}}]);
+//# sourceMappingURL=common.bdf25775f04a2475fc3a.js.map

@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="menu">
+    <a *ngFor="let menuItem of menuItems" class="menuitem" (click)="loadComponent(menuItem)">
+      {{menuItem.title}}
+    </a>
+
+  </div>
+  <div class="content">
+      <h1 *ngIf="!module">Choose Component From Menu</h1>
+    <div class="component-container" *ngIf="module">
+      <h1>{{module.title}} Component</h1>
+      <div [loadModule]="module"></div>
+    </div>
+  </div>
+  <div class="clearfloat"></div>
+</div>

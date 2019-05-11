@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  api:
+    #build:
+     # context: ./api
+    image: yasintarim/angular-dynamic-component-api:latest
+    ports:
+    - "1990:5000"
+  ui:
+    #build:
+     # context: ./ui
+    image: yasintarim/angular-dynamic-component-ui:latest
+    ports:
+    - "1991:80"

@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width:30%;
+    background-color: yellow;
+    height: 100vh;
+    float: left;
+}
+.menu .menuitem {
+    border: solid 1px gray;
+    margin: 13px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu .menuitem:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.content {
+    width: 70%;
+    background-color: red;
+    height: 100vh;
+    float: right;
+}
+
+.component-container, .content h1 {
+    padding: 20px;
+}
+
+.clearfloat {
+    clear: both;
+}
